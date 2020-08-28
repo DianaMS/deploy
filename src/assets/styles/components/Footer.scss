@@ -1,0 +1,59 @@
+@import '../Global.scss';
+
+
+    .container-footer{
+        @include size(100%, 100px);
+        display: flex;
+        flex-direction: row;
+        background: $color4;
+        @include mobile-screen() {
+            width: 100%;
+            height: 140px;
+            flex-direction: column;
+           }
+
+        .text-footer{
+            @include size(50%, 100px);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            @include mobile-screen() {
+                @include size(100%, 70px);
+               }
+            p{
+                @include font-Roboto(12px);
+                color: white;
+                letter-spacing: 2px;
+            }
+        }
+
+        .social-networks-container {
+            @include size(50%, 100px);
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            @include mobile-screen() {
+                @include size(100%, 70px);
+               }
+
+            .social-networks {
+                @include size(15%, 100px);
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                
+
+                a {
+                    text-decoration:none;
+                    @include font-Roboto(16px);
+                    color: white;
+                    cursor: pointer;
+                    &:hover{
+                        color: $color6;
+                       }
+                    
+                }
+            }
+        }
+    }

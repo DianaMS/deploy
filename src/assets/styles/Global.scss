@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+$color1: linear-gradient(180deg, #333f48 10%, #e4e83b 100%);
+$color2: rgb(251, 253, 112);
+$color3: rgb(210, 255, 10);
+$color4: #333f48;
+$color5: #b2bbad;
+$color6: #e4e83b;
+$color7: #f5f5f1;
+$color8: #00beb5;
+
+@mixin  size($width, $height) {
+    width: $width;
+    height: $height;
+  }
+
+//Fonts
+@mixin font($family, $style, $size, $weigth) {
+    font-family: $family, $style;
+    font-size: $size;
+    font-weight :$weigth
+  }
+
+@mixin font-NahumGothic($size) {
+    @include font('Nanum Gothic', sans-serif , $size, lighter);
+}
+
+@mixin font-Roboto($size) {
+    @include font('Roboto', sans-serif , $size, bold);
+}
+
+//media
+
+@mixin mobile-screen() {
+    @media (max-width: 700px){
+       @content;
+    }
+}
