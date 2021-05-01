@@ -13,8 +13,8 @@ const Item = ({ img, title, description, buttonleft, buttonright, code, deploy }
           <p className='description'>{description}</p>
         </div>
         <div className='routes'>
-          <a href={code} target='_blank' rel='noreferrer'><button type='button' className='button-left'>{buttonleft}</button></a>
-          <a href={deploy} target='_blank' rel='noreferrer'><button type='button' className='button-right'>{buttonright}</button></a>
+          <a href={code} target='_blank' rel="noopener noreferrer" ><button type='button' className='button-left'>{buttonleft}</button></a>
+          <a href={deploy} target='_blank' rel="noopener noreferrer" ><button type='button' className='button-right'>{buttonright}</button></a>
         </div>
       </section>
     </div>

@@ -4,9 +4,9 @@
     @include size(350px, 400px);
     display: flex;
     flex-direction: column;
-    justify-content: start;
+    justify-content: flex-start;
     align-items: center;
-    margin-bottom: 50px;
+    margin: 20px;
     .image-content{
         @include size(300px, auto);
         z-index:1;

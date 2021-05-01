@@ -1,6 +1,8 @@
 import React from 'react';
+import Typical from 'react-typical'
 import '../assets/styles/App.scss';
 import '../assets/styles/components/Home.scss';
+
 
 const Home = () => (
   <>
@@ -8,7 +10,17 @@ const Home = () => (
       <section className='container-home'>
         <div className='texts'>
           <h1 className='title'> Diana Martinez</h1>
-          <h2 className='subtitle'>FrontEnd Developer</h2>
+          <Typical className='subtitle'
+            loop={Infinity}
+            wrapper="b"
+            steps={[
+              'FrontEnd Developer',
+              1500,
+              'Electronic Engineer',
+              1500
+            ]}
+          />
+          {/* <h2 className='subtitle'>FrontEnd Developer</h2> */}
         </div>
         <div className='sesgo-down' />
       </section>
@@ -27,7 +39,7 @@ const Home = () => (
               del lado del cliente y servidor, potenciando cada aprendizaje para próximos desafíos que se presenten y obtener nuevas habilidades
               y conocimientos. Aspiro a seguir aportando y apostando por la transformación digital.
             </p>
-            <p className='my-nick'>¡ Hacerlo con pasión o nada !</p>
+            <p className='my-nick'>¡ HACERLO CON PASIÓN O NADA !</p>
           </div>
         </section>
         <section className='gallery' />

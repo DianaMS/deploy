@@ -90,6 +90,14 @@ export default {
     'image': 'https://user-images.githubusercontent.com/60928490/91102255-6ecc7a80-e62e-11ea-8564-6de69450a6fb.png',
   },
   {
+    'name': 'C#',
+    'image': 'https://user-images.githubusercontent.com/60928490/116787088-bcc03a80-aa67-11eb-8ab1-bf138c1e2270.png',
+  },
+  {
+    'name': '.NetCore',
+    'image': 'https://user-images.githubusercontent.com/60928490/116787086-bc27a400-aa67-11eb-9a68-a15dea01eb43.png',
+  },
+  {
     'name': 'NodeJS',
     'image': 'https://user-images.githubusercontent.com/60928490/91102261-71c76b00-e62e-11ea-851b-416ec82ec1b8.png',
   },
@@ -98,7 +106,7 @@ export default {
     'image': 'https://user-images.githubusercontent.com/60928490/91102309-86a3fe80-e62e-11ea-9979-76d09b2cec8c.png',
   },
   {
-    'name': 'Sass',
+    'name': 'SASS',
     'image': 'https://user-images.githubusercontent.com/60928490/91102314-8a378580-e62e-11ea-85fd-d178fffe8e06.png',
   },
   {
@@ -116,6 +124,10 @@ export default {
   {
     'name': 'MongoDB',
     'image': 'https://user-images.githubusercontent.com/60928490/91102347-9d4a5580-e62e-11ea-938c-abb5ffcf18b6.png',
+  },
+  {
+    'name': 'SQLServer',
+    'image': 'https://user-images.githubusercontent.com/60928490/116787087-bcc03a80-aa67-11eb-8da7-907a3da99ec1.png',
   },
   {
     'name': 'AWS',
@@ -146,7 +158,16 @@ export default {
     'image': 'https://user-images.githubusercontent.com/60928490/91102398-b3581600-e62e-11ea-9cb2-e08ca858e4f1.png',
   },
   {
+    'name': 'Bitbucket',
+    'image': 'https://user-images.githubusercontent.com/60928490/116787352-21c86000-aa69-11eb-9016-90ad87c1845c.png',
+  },
+  {
     'name': 'Postman',
     'image': 'https://user-images.githubusercontent.com/60928490/91102401-b521d980-e62e-11ea-8839-61041920bff1.png',
-  }],
+  },
+  {
+    'name': 'PowerBI',
+    'image': 'https://user-images.githubusercontent.com/60928490/116787356-24c35080-aa69-11eb-8ea9-83ff89ace141.png'
+  }
+  ],
 };

@@ -18,10 +18,10 @@ const Contact = () => (
         <p className='email-contact'>dmartinezs@uni.pe</p>
       </div>
       <div className='social-contact'>
-        <a href='https://github.com/DianaMS' target='_blank' rel='noreferrer'>
+        <a href='https://github.com/DianaMS' target='_blank' rel="noopener noreferrer" >
           <FontAwesomeIcon className='react-font' icon={faGithub} />
         </a>
-        <a href='https://www.linkedin.com/in/diana-mart%C3%ADnez-sifuentes-506307178/' target='_blank' rel='noreferrer'>
+        <a href='https://www.linkedin.com/in/diana-mart%C3%ADnez-sifuentes-506307178/' target='_blank' rel="noopener noreferrer" >
           <FontAwesomeIcon className='react-font' icon={faLinkedinIn} />
         </a>
       </div>

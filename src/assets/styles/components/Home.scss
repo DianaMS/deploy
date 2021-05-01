@@ -90,20 +90,34 @@
 
         .hello{
           @include font-Roboto(35px);
+          @include mobile-screen() {
+            @include font-Roboto(28px);
+           }
         }
         .slogan{
           margin-top: 10px;
           @include font-Roboto(24px);
+          @include mobile-screen() {
+            @include font-Roboto(20px);
+           }
         }
         .works{
           margin-top: 10px;
-          @include font-Roboto(14px);
+          @include font-Roboto(16px);
           text-align: justify;
+          line-height: 25px;
+          @include mobile-screen() {
+            @include font-Roboto(14px);
+           }
         }
         .my-nick{
-          margin-top: 10px;
+          margin-top: 20px;
+          margin-bottom: 30px;
+          font-weight: bold;
           @include font-Roboto(18px);
-
+          @include mobile-screen() {
+            @include font-Roboto(16px);
+           }
         }
       }
     }

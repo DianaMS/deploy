@@ -10,7 +10,7 @@ import '../assets/styles/App.scss';
 const App = () => (
   <Router>
     <Layout>
-      <Switch>
+      <Switch classname="cont-gen">
         <Route path='/projects' component={withRouter(Projects)} />
         <Route path='/skills' component={withRouter(Skills)} />
         <Route path='/contact' component={withRouter(Contact)} />

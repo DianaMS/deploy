@@ -12,17 +12,17 @@ const Footer = () => (
 
       <div className='social-networks-container'>
         <div className='social-networks'>
-          <a href='https://www.linkedin.com/in/diana-mart%C3%ADnez-sifuentes-506307178/' target='_blank' rel='noreferrer'>
+          <a href='https://www.linkedin.com/in/diana-mart%C3%ADnez-sifuentes-506307178/' target='_blank' rel="noopener noreferrer" >
             <FontAwesomeIcon icon={faLinkedinIn} />
           </a>
         </div>
         <div className='social-networks'>
-          <a href='https://github.com/DianaMS' target='_blank' rel='noreferrer'>
+          <a href='https://github.com/DianaMS' target='_blank' rel="noopener noreferrer" >
             <FontAwesomeIcon icon={faGithub} />
           </a>
         </div>
         <div className='social-networks'>
-          <a href='https://www.instagram.com/dianams_19/?hl=es-la' target='_blank' rel='noreferrer'>
+          <a href='https://www.instagram.com/dianams_19/?hl=es-la' target='_blank' rel="noopener noreferrer" >
             <FontAwesomeIcon icon={faInstagram} />
           </a>
         </div>
