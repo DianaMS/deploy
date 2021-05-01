@@ -1,7 +1,7 @@
 @import '../Global.scss';
 
 .container-projects {
-    @include size(100%, auto);
+    @include size(100%, 100%);
     background-image: url('https://user-images.githubusercontent.com/60928490/91021669-aea54a80-e5b9-11ea-8c2c-51e065525861.png');
     background-size: cover;
     display: flex;
